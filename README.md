@@ -5,22 +5,22 @@ Vim plugin for automatically switching between HTML and PHP filetypes in PHP fil
 
 Settings
 --------
-`g:phtmlSwitch_enabled` (Default: 1)
+`g:phtmlSwitch_enabled` (Default: 1)  
 Enables phtmlSwitch, this can be used in key mappings to
 temporarily disable phtmlSwitch if it is behaving incorrectly or
 is not needed.
 
-`g:phtmlSwitch_php_type` (Default: "php")
+`g:phtmlSwitch_php_type` (Default: "php")  
 Allows you to change what phtmlSwitch sets as the filetype when it
 hits a PHP block. This is useful if you have a custom filetype
 that you want to use.
 
-`g:phtmlSwitch_html_type` (Default: "html")
+`g:phtmlSwitch_html_type` (Default: "html")  
 Allows you to change what phtmlSwitch sets as the filetype when it
 hits a HTML block. This is useful if you have a custom filetype
 that you want to use.
 
-`g:phtmlSwitch_debug` (Default: 0)
+`g:phtmlSwitch_debug` (Default: 0)  
 Echoes which code region phtmlSwitch thinks the cursor is in
 (PHP/HTML). This is helpful for debugging issues with the search
 function powering the filetype switcher. Turn this on if things
@@ -31,16 +31,16 @@ Functions
 These functions are provided to extend or modify how phtmlSwitch
 works.
 
-`phtmlSwitch#update()`
+`phtmlSwitch#update()`  
 Runs the code block checker again and sets the file type.
 
-`phtmlSwitch#toggle()`
+`phtmlSwitch#toggle()`  
 Toggles between HTML and PHP modes.
 
-`phtmlSwitch#setPHP()`
+`phtmlSwitch#setPHP()`  
 Sets the mode to PHP.
 
-`phtmlSwitch#setHTML()`
+`phtmlSwitch#setHTML()`  
 Sets the mode to HTML.
 
 Note
